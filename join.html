@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Join Akwa Poly FC</title>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body style="background:var(--blue)">
+<header><div class="wrap"><a class="brand" href="index.html"><img class="logo" src="photos/logo.png" alt="Akwa Poly logo"><span>Akwa Poly FC</span></a><a class="btn" style="margin-left:auto" href="index.html">Back to site</a></div></header>
+<main class="joinbox"><div class="card">
+  <form id="join">
+    <h2>Join Akwa Poly FC</h2>
+    <label>Full name<input required></label>
+    <label>Department and level<input required placeholder="e.g. Computer Science, ND2"></label>
+    <label>Preferred position<select><option>Goalkeeper</option><option>Defender</option><option>Midfielder</option><option>Forward</option></select></label>
+    <label>Phone<input type="tel" required></label>
+    <label>Email<input type="email" required></label>
+    <button class="btn">Send request</button>
+  </form>
+  <div class="done" id="done"><div class="tick">&#10003;</div><h2>Your request is in process</h2><p>The club will contact you about trials.</p><a class="btn" href="index.html">Back to site</a></div>
+</div></main>
+<script src="script.js"></script>
+<footer><b>AKPAN EMMANUEL ANIETIE</b> &middot; AKP/ASC/CSC/ND2024/2254<br>&copy; <span id="yr"></span> Akwa Poly FC &middot; Akwa Ibom State Polytechnic, Ikot Osurua</footer><script>document.getElementById("yr").textContent=new Date().getFullYear()</script></body></html>
